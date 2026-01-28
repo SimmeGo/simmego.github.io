@@ -3,7 +3,6 @@
   "name": "Die Katakomben von Jhinda (2)",
   "edition": "fh",
   "eventType": "road",
-  "initial": true,
   "unlocks": [
     "BB03"
   ],
