@@ -1,11 +1,11 @@
 {
-  "index": "1.2",
+  "index": "BB1.2",
   "name": "Die Katakomben von Jhinda",
   "edition": "fh",
   "parent": "BB01",
   "parentSections": [
     [
-      "1.1"
+      "BB1.1"
     ]
   ],
   "marker": "b",
