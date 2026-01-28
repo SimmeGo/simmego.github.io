@@ -1,6 +1,6 @@
 {
   "index": "BB01",
-  "name": "The Catacombs of Jhinda",
+  "name": "Die Katakomben von Jhinda",
   "edition": "fh",
   "eventType": "road",
   "initial": true,
@@ -17,7 +17,7 @@
     "wind-demon",
     "valrath-tracker",
     "valrath-savage",
-    "guild-archer",
+    "city-archer",
     "cultist"
   ],
   "rules": [
