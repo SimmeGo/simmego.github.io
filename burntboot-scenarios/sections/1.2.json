@@ -14,6 +14,43 @@
     "flame-demon",
     "wind-demon"
   ],
+  "rules": [
+    {
+      "round": "true",
+      "always": true,
+      "alwaysApply": true,
+      "statEffects": [
+        {
+          "identifier": {
+            "type": "monster",
+            "edition": "fh",
+            "name": "wind-demon"
+          },
+          "statEffect": {
+            "deck": "crossed-wind-demon"
+          },
+          "note": "The cards from both the wind demons and the flame demons are mixed together."
+        }
+      ]
+    },
+    {
+      "round": "true",
+      "always": true,
+      "alwaysApply": true,
+      "statEffects": [
+        {
+          "identifier": {
+            "type": "monster",
+            "edition": "fh",
+            "name": "flame-demon"
+          },
+          "statEffect": {
+            "deck": "crossed-flame-demon"
+          },
+        }
+      ]
+    }
+  ],
   "rooms": [
     {
       "roomNumber": 3,
