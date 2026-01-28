@@ -12,6 +12,7 @@
   "monsters": [
     "city-archer",
     "valrath-savage"
+  ],  
   "rooms": [
     {
       "roomNumber": 4,
