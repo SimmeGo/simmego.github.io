@@ -2,7 +2,7 @@
   "index": "1.1",
   "name": "Die Katakomben von Jhinda",
   "edition": "burntboot",
-  "parent": "1",
+  "parent": "BB01",
   "marker": "1",
   "monsters": [
     "city-archer",
