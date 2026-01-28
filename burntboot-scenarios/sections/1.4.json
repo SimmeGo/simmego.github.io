@@ -1,4 +1,44 @@
 {
+  "index": "1.4",
+  "name": "Die Katakomben von Jhinda",
+  "edition": "burntboot",
+  "parent": "1",
+  "parentSections": [
+    [
+      "1.1"
+    ]
+  ],
+  "marker": "3",
+  "monsters": [
+    "valrath-savage",
+    "cultist"
+  ],
+  "rooms": [
+    {
+      "roomNumber": 5,
+      "initial": true,
+      "monster": [
+        {
           "name": "valrath-savage",
           "type": "elite"
         },
+        {
+          "name": "valrath-savage",
+          "type": "elite"
+        },
+        {
+          "name": "cultist",
+          "type": "normal"
+        },
+        {
+          "name": "cultist",
+          "type": "elite"
+        },
+        {
+          "name": "cultist",
+          "type": "elite"
+        }        
+      ]
+    }
+  ]
+}
