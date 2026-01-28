@@ -45,9 +45,6 @@
       "roomNumber": 1,
       "ref": "13-C",
       "initial": true,
-      "rooms": [
-        2
-      ],
       "monster": [
         {
           "name": "valrath-savage",
