@@ -1,0 +1,148 @@
+{
+  "index": "1.1",
+  "name": "Die Katakomben von Jhinda",
+  "edition": "burntboot",
+  "parent": "1",
+  "marker": "1",
+  "monsters": [
+    "city-archer",
+    "valrath-tracker"
+    "valrath-savage"
+    "wind-demon"
+    "flame-demon"
+  ],
+  "allies": [
+    "valrath-tracker"
+  ],
+  "rules": [
+    {
+      "round": "true",
+      "always": true,
+      "alwaysApply": true,
+      "statEffects": [
+        {
+          "identifier": {
+            "type": "monster",
+            "edition": "gh",
+            "name": "city-archer"
+          },
+          "statEffect": {
+            "deck": "guild-archer"
+          },
+          "note": "The City Archers only keep their ability cards with the initiatives 16, 32, 44 and 56. They take the cards with the initiatives 22 and 68 (fire generation) from the Savvas Lavaflow and the cards with the initiatives 47 and 70 from the Savvas Icestorm to form an ability deck."
+        }
+      ]
+    },
+    {
+      "round": "true",
+      "always": true,
+      "alwaysApply": true,
+      "statEffects": [
+        {
+          "identifier": {
+            "type": "monster",
+            "edition": "fh",
+            "name": "wind-demon"
+          },
+          "statEffect": {
+            "deck": "crossed-wind-demon"
+          },
+          "note": "The cards from both the wind demons and the flame demons are mixed together."
+        }
+      ]
+    },
+    {
+      "round": "true",
+      "always": true,
+      "alwaysApply": true,
+      "statEffects": [
+        {
+          "identifier": {
+            "type": "monster",
+            "edition": "fh",
+            "name": "flame-demon"
+          },
+          "statEffect": {
+            "deck": "crossed-flame-demon"
+          },
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "roomNumber": 2,
+      "initial": true,
+      "monster": [
+        {
+          "name": "valrath-savage",
+          "type": "normal"
+        },
+        {
+          "name": "valrath-savage",
+          "type": "normal"
+        },
+        {
+          "name": "valrath-savage",
+          "type": "normal"
+        },
+        {
+          "name": "valrath-savage",
+          "type": "elite"
+        },
+        {
+          "name": "valrath-savage",
+          "type": "elite"
+        },
+        {
+          "name": "valrath-savage",
+          "type": "elite"
+        },
+        {
+          "name": "valrath-savage",
+          "type": "elite"
+        },
+        {
+          "name": "city-archer",
+          "type": "normal"
+        },
+        {
+          "name": "city-archer",
+          "type": "normal"
+        },
+        {
+          "name": "city-archer",
+          "type": "elite"
+        },
+        {
+          "name": "city-archer",
+          "type": "elite"
+        },
+        {
+          "name": "city-archer",
+          "type": "elite"
+        },
+        {
+          "name": "valrath-tracker",
+          "type": "elite"
+        },
+        {
+          "name": "valrath-tracker",
+          "type": "elite"
+        },
+        {
+          "name": "valrath-tracker",
+          "type": "elite"
+        },
+        {
+          "name": "valrath-tracker",
+          "type": "normal"
+        },
+        {
+          "name": "valrath-tracker",
+          "type": "normal"
+        }
+      ]
+    }
+  ]
+}
