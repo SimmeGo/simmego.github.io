@@ -1,0 +1,10 @@
+{
+  "edition": "burntboot",
+  "extensions": [
+    "gh",
+    "fc",
+    "fh"
+  ]
+  "newAmStyle": true,
+  "newItemStyle": true
+}
