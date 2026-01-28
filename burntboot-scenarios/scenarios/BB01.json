@@ -1,0 +1,79 @@
+{
+  "index": "BB01",
+  "name": "The Catacombs of Jhinda",
+  "edition": "fh",
+  "eventType": "road",
+  "initial": true,
+  "unlocks": [
+    "BB02"
+  ],
+  "links": [
+    "BB02"
+  ],
+  "rewards": {
+  },
+  "monsters": [
+    "flame-demon",
+    "wind-demon",
+    "valrath-tracker",
+    "valrath-savage",
+    "guild-archer",
+    "cultist"
+  ],
+  "rules": [
+    {
+      "round": "true",
+      "always": true,
+      "alwaysApply": true,
+      "statEffects": [
+        {
+          "identifier": {
+            "type": "monster",
+            "edition": "gh",
+            "name": "city-archer"
+          },
+          "statEffect": {
+            "deck": "guild-archer"
+          },
+          "note": "The City Archers only keep their ability cards with the initiatives 16, 32, 44 and 56. They take the cards with the initiatives 22 and 68 (fire generation) from the Savvas Lavaflow and the cards with the initiatives 47 and 70 from the Savvas Icestorm to form an ability deck."
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "roomNumber": 1,
+      "ref": "13-C",
+      "initial": true,
+      "rooms": [
+        2
+      ],
+      "monster": [
+        {
+          "name": "valrath-savage",
+          "type": "normal"
+        },
+        {
+          "name": "valrath-savage",
+          "type": "normal"
+        },
+        {
+          "name": "valrath-savage",
+          "type": "elite"
+        },
+        {
+          "name": "valrath-savage",
+          "type": "elite"
+        },
+        {
+          "name": "guild-archer",
+          "type": "elite"
+        },
+        {
+          "name": "guild-archer",
+          "player2": "elite"
+        }
+      ]
+    }
+  ]
+}
