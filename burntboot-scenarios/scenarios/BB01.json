@@ -66,11 +66,11 @@
           "type": "elite"
         },
         {
-          "name": "guild-archer",
+          "name": "city-archer",
           "type": "elite"
         },
         {
-          "name": "guild-archer",
+          "name": "city-archer",
           "player2": "elite"
         }
       ]
